@@ -1,4 +1,4 @@
-# Baekjoon Coding Test
+# Algorithm Study
 알고리즘 공부 및 코딩테스트 준비를 위해 사용하는 리포지토리입니다.
 
 
