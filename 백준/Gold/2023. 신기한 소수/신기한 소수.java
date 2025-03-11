@@ -19,7 +19,9 @@ public class Main {
         else if (num < 2) return false;
         else if (num % 2 == 0) return false;
 
-        for (int i = 3; i <= num / 2; i++) {
+        double sqrt_num = Math.sqrt(num);
+
+        for (int i = 3; i <= sqrt_num; i++) {
             if (num % i == 0)
                 return false;
         }
