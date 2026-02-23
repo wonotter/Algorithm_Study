@@ -16,13 +16,12 @@ class Solution {
             for (Node next : queue) {
                 if (cur.priority < next.priority) {
                     hasHigher = true;
+                    queue.add(cur);
                     break;
                 }
             }
             
-            if (hasHigher) {
-                queue.add(cur);
-            } else {
+            if (!hasHigher) {
                 count++;
                 
                 if (cur.idx == location) {
