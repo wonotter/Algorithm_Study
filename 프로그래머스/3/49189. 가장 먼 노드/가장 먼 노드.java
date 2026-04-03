@@ -35,7 +35,7 @@ class Solution {
         Arrays.fill(visited, -1);
         
         queue.add(start);
-        visited[1] = 0;
+        visited[start] = 0;
         
         while (!queue.isEmpty()) {
             int now = queue.poll();
