@@ -20,6 +20,6 @@ class Solution {
             }
         }
         
-        return Arrays.stream(dp[n - 1]).max().orElse(0);
+        return Arrays.stream(dp[n - 1]).max().getAsInt();
     }
 }
